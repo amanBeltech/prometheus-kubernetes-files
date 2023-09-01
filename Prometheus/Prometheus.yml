@@ -63,7 +63,7 @@ spec:
   #         requests:
   #           storage: 20Gi
   remoteWrite:
-     - url: "http://ec2-65-0-87-53.ap-south-1.compute.amazonaws.com:30900/api/v1/read"
+     - url: "http://0.0.0.0:30900/api/v1/read"
        name: prometheus-k8s-test
        remoteTimeout: 1m
        queueConfig: 
